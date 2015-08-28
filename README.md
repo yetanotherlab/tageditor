@@ -1,43 +1,29 @@
-# angular-seed — the seed for AngularJS apps
+# Yet Another Tag Editor - Yet another way to manage your online music library
 
-This project is an application skeleton for a typical [AngularJS](http://angularjs.org/) web app.
-You can use it to quickly bootstrap your angular webapp projects and dev environment for these
-projects.
+Not everyone stores their music library in the cloud, but those that do need a better way to manage it. Yet Another Tag Editor attempts to be the solution.
 
-The seed contains a sample AngularJS application and is preconfigured to install the Angular
-framework and a bunch of development and testing tools for instant web development gratification.
-
-The seed app doesn't do much, just shows how to wire two controllers and views together.
-
+Based on [angular-seed](https://github.com/angular/angular-seed), tageditor is an [AngularJS](http://angularjs.org/) web app, designed for tight integration with Google and its [Material Design](https://www.google.com/design/spec/material-design/introduction.html) concepts.
 
 ## Getting Started
 
-To get you started you can simply clone the angular-seed repository and install the dependencies:
+To get you started you can simply clone the tageditor repository and install the dependencies:
 
 ### Prerequisites
 
-You need git to clone the angular-seed repository. You can get git from
+You need git to clone the tageditor repository. You can get git from
 [http://git-scm.com/](http://git-scm.com/).
 
-We also use a number of node.js tools to initialize and test angular-seed. You must have node.js and
+We also use a number of node.js tools to initialize and test tageditor. You must have node.js and
 its package manager (npm) installed.  You can get them from [http://nodejs.org/](http://nodejs.org/).
 
-### Clone angular-seed
+### Clone tageditor
 
-Clone the angular-seed repository using [git][git]:
+Clone the tageditor repository using [git][git]:
 
 ```
-git clone https://github.com/angular/angular-seed.git
-cd angular-seed
+git clone https://github.com/yetanotherlab/tageditor.git
+cd tageditor
 ```
-
-If you just want to start a new project without the angular-seed commit history then you can do:
-
-```bash
-git clone --depth=1 https://github.com/angular/angular-seed.git <your-project-name>
-```
-
-The `depth=1` tells git to only pull down one commit worth of historical data.
 
 ### Install Dependencies
 
@@ -108,11 +94,11 @@ e2e-tests/            --> end-to-end tests
 
 ## Testing
 
-There are two kinds of tests in the angular-seed application: Unit tests and End to End tests.
+There are two kinds of tests in the tageditor application: Unit tests and End to End tests.
 
 ### Running Unit Tests
 
-The angular-seed app comes preconfigured with unit tests. These are written in
+The angular-seed app came preconfigured with unit tests. These are written in
 [Jasmine][jasmine], which we run with the [Karma Test Runner][karma]. We provide a Karma
 configuration file to run them.
 
@@ -141,7 +127,7 @@ npm run test-single-run
 
 ### End to end testing
 
-The angular-seed app comes with end-to-end tests, again written in [Jasmine][jasmine]. These tests
+The angular-seed app came with end-to-end tests, again written in [Jasmine][jasmine]. These tests
 are run with the [Protractor][protractor] End-to-End test runner.  It uses native events and has
 special features for Angular applications.
 
@@ -157,7 +143,7 @@ npm start
 ```
 
 In addition, since Protractor is built upon WebDriver we need to install this.  The angular-seed
-project comes with a predefined script to do this:
+project came with a predefined script to do this:
 
 ```
 npm run update-webdriver
@@ -176,9 +162,9 @@ This script will execute the end-to-end tests against the application being host
 development server.
 
 
-## Updating Angular
+## Updating AngularJS
 
-Previously we recommended that you merge in changes to angular-seed into your own fork of the project.
+Previously it was recommended that you merge in changes to angular-seed into your own fork of the project.
 Now that the angular framework library code and tools are acquired through package managers (npm and
 bower) you can use these tools instead to update the dependencies.
 
@@ -201,7 +187,7 @@ This will find the latest versions that match the version ranges specified in th
 
 ## Loading Angular Asynchronously
 
-The angular-seed project supports loading the framework and application scripts asynchronously.  The
+The tageditor project supports loading the framework and application scripts asynchronously.  The
 special `index-async.html` is designed to support this style of loading.  For it to work you must
 inject a piece of Angular JavaScript into the HTML page.  The project has a predefined script to help
 do this.
@@ -225,7 +211,7 @@ etc to function properly when an html page is opened via `file://` scheme instea
 
 ### Running the App during Development
 
-The angular-seed project comes preconfigured with a local development webserver.  It is a node.js
+The tageditor project comes preconfigured with a local development webserver.  It is a node.js
 tool called [http-server][http-server].  You can start this webserver with `npm start` but you may choose to
 install the tool globally:
 
@@ -264,7 +250,7 @@ reverse-proxying the backend server(s) and webserver(s).
 ### Travis CI
 
 [Travis CI][travis] is a continuous integration service, which can monitor GitHub for new commits
-to your repository and execute scripts such as building the app or running tests. The angular-seed
+to your repository and execute scripts such as building the app or running tests. The tageditor
 project contains a Travis configuration file, `.travis.yml`, which will cause Travis to run your
 tests when you push to GitHub.
 
